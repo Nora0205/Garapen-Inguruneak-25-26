@@ -29,17 +29,15 @@ while (kontagailua < 5)
 
 
 // 3. AKATSA
+
 int[] arrayZenbakiak = { 1, 2, 3, 4, 5 };
 Console.WriteLine("5. Zenbakien karratuak:");
 
-int karratua = 0;
-
 foreach (int zenbakia in arrayZenbakiak)
 {
-    karratua = zenbakia * zenbakia;
-}
-
-Console.WriteLine($"Zenbakiaren karratua: {karratua}");
+    int karratua = zenbakia * zenbakia;
+    Console.WriteLine($"Zenbakiaren karratua: {karratua}");
+}           
 
 
 // 4. AKATSA
