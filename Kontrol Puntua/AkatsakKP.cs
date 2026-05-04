@@ -15,7 +15,6 @@ for (int i = 0; i < balioak.Length; i++)
     batura += balioak[i];
 }
 
-// AKATSA: batez bestekoa ez da ondo kalkulatzen (zatiketa falta da)
 int batazBestekoa = batura;
 Console.WriteLine($"2. Batez bestekoa: {batazBestekoa}");
 
@@ -26,7 +25,6 @@ int kontagailua = 0;
 while (kontagailua < 5)
 {
     Console.WriteLine($"4. Kontagailua: {kontagailua}");
-    // AKATSA: kontagailua ez da handitzen → begizta infinitua
 }
 
 
@@ -41,7 +39,6 @@ foreach (int zenbakia in arrayZenbakiak)
     karratua = zenbakia * zenbakia;
 }
 
-// AKATSA: azken balioa bakarrik gordetzen da eta loopetik kanpo gaizki erabiltzen da
 Console.WriteLine($"Zenbakiaren karratua: {karratua}");
 
 
@@ -51,7 +48,6 @@ int emaitza = 0;
 
 for (int i = 0; i < balioMistoa.Length; i++)
 {
-    // AKATSA: elementuak gaizki pilatzen dira (logika okerra/errepikapen arazoa izan daiteke)
     emaitza += balioMistoa[i] + balioMistoa[i];
 }
 
