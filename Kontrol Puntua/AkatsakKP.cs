@@ -15,9 +15,9 @@ for (int i = 0; i < balioak.Length; i++)
     batura += balioak[i];
 }
 
-int batazBestekoa = batura;
-Console.WriteLine($"2. Batez bestekoa: {batazBestekoa}");
+double batazBestekoa = (double)batura / balioak.Length;
 
+Console.WriteLine($"2. Batez bestekoa: {batazBestekoa}");
 
 // 2. AKATSA
 int kontagailua = 0;
